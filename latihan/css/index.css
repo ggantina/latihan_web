@@ -1,0 +1,259 @@
+/* style gambar header jumbotron */
+#header-jumbo {
+    background-image: url(../img/airbnb4.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+/* style untuk form di header */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+label {
+    font-size: 12px;
+}
+
+#btn-form {
+    background-color: salmon;
+    color: white;
+    
+}
+
+#btn-form:hover {
+    background-color: red;
+}
+/* akhir style header */
+
+
+/* style menu navigasi */
+.card-nav {
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.7)
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#menu-navigasi {
+    margin-bottom: 40px;
+}
+
+.titlenav {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* akhir nav */
+
+
+/* style image baner 1 */
+.baner1 {
+    background-image: url(../img/airbnb4.jpg);
+    background-position: 0 -175px;
+    background-size: cover;
+    height: 420px;
+}
+
+.titlebaner1,
+.masak,
+.foterbaner {
+    color: white;
+}
+
+.titlebaner1 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.masak {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.foterbaner {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-baner1 {
+    background-color: white;
+    color: gray;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 16px;
+    width: 20%;
+    height: 45px;
+    font-weight: 700;
+
+}
+
+
+.btn-baner1:hover {
+    color: black;
+}
+/* akhir baner1 */
+
+
+
+/* style baner petualangan */
+#baner-petualangan {
+    margin-bottom: 30px;
+}
+.card-petualangan {
+    border: none;
+}
+
+.card-body {
+    text-align: justify;
+    margin-top: -3px;
+}
+
+
+#judul-petualangan {
+    font-weight: bold;
+}
+
+#link-petualangan {
+    text-decoration: none;
+    color: grey !important;
+}
+
+
+#link-petualangan:hover {
+    color: black;
+}
+
+/* akhir baner petualangan */
+
+
+/* style image jumbo baner2 */
+.jumbo-baner2 {
+    background-image: url(../img/airbnb4.jpg);
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+
+.btn-baner2 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 11px;
+    width: 15%;
+    height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 43%;
+    margin-bottom: -30%;
+    box-sizing: border-box;
+}
+
+.card-inap {
+    border: none;
+}
+
+.card-inap2 {
+    border: none;
+}
+
+/* footer */
+
+.copy {
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+@media (max-width: 567px) {
+    /* tombol btn di baner1 */
+    .btn-baner1 {
+        width: 100%;
+
+    }
+
+    .titlebaner1,
+    .masak,
+    .foterbaner,
+    .card-title {
+        text-align: center;
+    }
+
+    /* style baner petualangan */
+    .card-petualangan img {
+        width: 90%;
+        margin: 5px;
+    }
+
+    #card-title,
+    #card-text {
+        width: 90%;
+        margin: 10px;
+    }
+
+    /* akhir baner petualangan */
+
+    /* style btb baner2 */
+    .btn-baner2 {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .card-inap img {
+        width: 100%;
+        margin: 15px;
+    }
+
+    #cardinap,
+    #textinap{
+        text-align: justify;
+        width: 89%;
+        margin:auto;
+        font-size: 12px;
+    }
+
+    .card-inap2 img {
+        width: 100%;
+        margin: 15px;
+    }
+
+
+}
+
+/* Dekstop */
+
+@media (min-width: 992px) {
+
+    /* style link untuk navbar */
+    .nav-link {
+        color: white !important;
+    }
+
+    .nav-link:hover {
+        border-bottom: 1px solid white;
+    }
+
+    /* style untuk image header jumbotron */
+    #header-jumbo {
+        margin-top: -85px;
+    }
+    /* tombol btn form cek di jumbotron */
+    #btn-form {
+        margin-left: 80%;
+    }
+
+}
+

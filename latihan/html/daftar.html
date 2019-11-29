@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- style 2 -->
+    <link rel="stylesheet" href="../css/daftar.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section class="container-fluid bg">
+
+        <!--image -->
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="../img/logo1.png" width="80px">
+            </a>
+        </nav>
+        <!-- image -->
+        <div id="daftar">
+          <div class="container daftar-bg">
+            <div class="row justify-content-center">
+                  <form class="form-content col-sm-6">
+                    <div id="tombol-close">
+                      <button type="submit" class="btn-close" onclick="history.go(-1);"><p id="close">CLOSE</p></button>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-fb col-sm-12">Log masuk dengan Facebook</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-google col-sm-12">Log masuk dengan Google</button>
+                    </div>
+                    <hr>
+                      <div class="form-group">
+                        <input type="email" class="form-control form-email col-sm-12" id="inputAddress" placeholder="Alamat Email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control form-password col-sm-12" id="inputAddress2" placeholder="Kata Sandi">
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">Ingat Saya</label>
+                          <a href="#" class="float-right"><p id="showpas">Tampilkan kata sandi</p></a>
+                        </div>
+                        
+                      </div>
+                      <div class="form-group"> 
+                          <button type="submit" class="btn btn-daftar col-md-12" onclick="alert('Login Berhasil')">Log masuk</button>
+                      </div>
+                      <a href="#" id="katasandi">Lupa Kata Sandi?</a>
+                      <hr>
+                      <p>Tidak punya akun ? <a href="#" style="font-weight:bold;">Daftar</a></p>
+                    </form>
+            </div>
+          </div>
+        </div>
+  </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="../jquery/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+  </body>
+</html>
